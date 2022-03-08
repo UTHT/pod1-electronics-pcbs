@@ -7,6 +7,6 @@
 "6     " ,"0686F1000-01             " ,"Bel Fuse Inc.                           " ,"FUSE BRD MNT 1A 32VAC 63VDC 0603 " ,"2                    " ,"507-2147-1-ND          " ,"0.39000      " ,"$0.78            " ,"F1, F2"
 "7     " ,"CZRB5359B-HF             " ,"Comchip Technology                      " ,"DIODE ZENER 24V 5W DO214AA       " ,"1                    " ,"641-1811-1-ND          " ,"0.85000      " ,"$0.85            " ,D4
 "8     " ,"PLVA650A,215"              ,"Nexperia USA Inc.                       " ,"DIODE ZENER 5V 250MW TO236AB     " ,"1                    " ,"1727-5167-1-ND         " ,"0.56000      " ,"$0.56            " ,D2
-"9     " ,"CRG0805F100K             " ,"TE Connectivity Passive Product         " ,"RES SMD 100K OHM 1% 1/8W 0805    " ,"2                    " ,"A106052CT-ND           " ,"0.15000      " ,"$0.30            " ,"R3, R4"
+"9     " ,"CRG0805F100K             " ,"TE Connectivity Passive Product         " ,"RES SMD 100K OHM 1% 1/8W 0805    " ,"2                    " ,"A106052CT-ND           " ,"0.15000      " ,"$0.30            " ,"R5, R6"
 "10    " ,"BZX84-C18,235"             ,"Nexperia USA Inc.                       " ,"DIODE ZENER 18V 250MW TO236AB    " ,"2                    " ,"1727-6254-1-ND         " ,"0.23000      " ,"$0.46            " ,"D1, D3"
 "11    " ,"BSP250,115"                ,"Nexperia USA Inc.                       " ,"MOSFET P-CH 30V 3A SOT223        " ,"2                    " ,"1727-4930-1-ND         " ,"0.89000      " ,"$1.78            " ,"Q3, Q4"
