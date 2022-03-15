@@ -1,7 +1,11 @@
 # PCB 2
-## Voltage Levels: 5V, 24V
-## Sensor List (Connector Designator):
-  DCT500 (J2)  
-  MPU9250 (MPU-1)  
-  OPT2002 (OPT1)  
-  OPT2002 (OPT2)  
+
+## Inputs
+
+- 12VDC (J1)
+- 24VDC (J2)
+
+## Sensors
+
+- Wenglor OPT2002 Optical Distance Sensor (J3)
+- AcuAMP DCT500-42-24-F DC Current Sensor (J4)
