@@ -2943,6 +2943,108 @@ Created by Upverter.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Molex Micro-Lock PLUS" urn="urn:adsk.wipprod:fs.file:vf.aLnYsiJBRyGIcsa2SAseLA">
+<packages>
+<package name="4PIN" library_version="8">
+<smd name="1" x="0" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="3" x="-2.5" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="4" x="-3.75" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="5" x="1.9" y="2.295" dx="1.3" dy="2.15" layer="1"/>
+<smd name="6" x="-5.65" y="2.295" dx="1.3" dy="2.15" layer="1"/>
+<wire x1="2.504" y1="0" x2="4.028" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="4.028" y1="0.635" x2="4.028" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="4.028" y1="-0.635" x2="2.504" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6" y1="3.85" x2="-6" y2="3.69" width="0.1524" layer="21"/>
+<wire x1="-6" y1="-0.35" x2="-4.47" y2="-0.35" width="0.1524" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="2.25" y2="0.9" width="0.1524" layer="21"/>
+<wire x1="2.25" y1="3.85" x2="-6" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="0.72" y1="-0.35" x2="2.25" y2="-0.35" width="0.1524" layer="21"/>
+<wire x1="2.25" y1="3.69" x2="2.25" y2="3.85" width="0.1524" layer="21"/>
+<wire x1="-6" y1="0.9" x2="-6" y2="-0.35" width="0.1524" layer="21"/>
+<wire x1="2.504" y1="0" x2="4.028" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="4.028" y1="0.635" x2="4.028" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="4.028" y1="-0.635" x2="2.504" y2="0" width="0.1524" layer="51"/>
+<wire x1="-6" y1="-0.35" x2="2.25" y2="-0.35" width="0.1524" layer="51"/>
+<wire x1="2.25" y1="-0.35" x2="2.25" y2="3.85" width="0.1524" layer="51"/>
+<wire x1="2.25" y1="3.85" x2="-6" y2="3.85" width="0.1524" layer="51"/>
+<wire x1="-6" y1="3.85" x2="-6" y2="-0.35" width="0.1524" layer="51"/>
+<polygonshape width="0.0254" layer="41">
+<polygonoutlineobjects>
+<vertex x="2.6437" y="3.8627"/>
+<vertex x="-6.3937" y="3.8627"/>
+<vertex x="-6.3937" y="0.6533"/>
+<vertex x="2.6437" y="0.6533"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="2.6437" y="3.8627"/>
+<vertex x="-6.3937" y="3.8627"/>
+<vertex x="-6.3937" y="0.6533"/>
+<vertex x="2.6437" y="0.6533"/>
+<vertex x="2.6437" y="3.8627"/>
+</polygonoutlinesegments>
+</polygonshape>
+<text x="4.445" y="0" size="1.27" layer="25" align="center-left">&gt;NAME</text>
+<text x="-1.905" y="-1.143" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="4-PIN__PACKAGE_" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.qgFO0TMcQe-EH4rWbP_Pug?version=2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="4PIN"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="4PIN" library_version="8">
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="0" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="0.8467" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-1.6933" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-4.2333" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-6.7733" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="-0.8467" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-3.3867" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-5.9267" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-8.4667" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="4.1646" y="5.3086" size="2.083" layer="95" ratio="6">&gt;NAME</text>
+<text x="4.1646" y="2.7686" size="2.083" layer="96" ratio="6">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROLOCK-4PIN" prefix="J" uservalue="yes" library_version="8">
+<gates>
+<gate name="G$1" symbol="4PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.qgFO0TMcQe-EH4rWbP_Pug?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2960,20 +3062,20 @@ Created by Upverter.com</description>
 <part name="D2" library="Diode" deviceset="ZENER_" device="DO-219-AB(SOD123F)" package3d_urn="urn:adsk.eagle:package:9427153/2" technology="MMSZ5240BT" value="DDZ12C-7"/>
 <part name="D3" library="Zener SOT23" library_urn="urn:adsk.wipprod:fs.file:vf.cC8eZxPpRqedTffaHX0f5A" deviceset="ZENER_SOT23" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.ljpgGxF6SVqQoG0isrVPhQ?version=2" value="PLVA650A,215"/>
 <part name="D4" library="Zener SOT23" library_urn="urn:adsk.wipprod:fs.file:vf.cC8eZxPpRqedTffaHX0f5A" deviceset="ZENER_SOT23" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.ljpgGxF6SVqQoG0isrVPhQ?version=2" value="PLVA650A,215"/>
-<part name="Q1" library="MOSFET SOT23" library_urn="urn:adsk.wipprod:fs.file:vf._0DlF-hqRbSXGNB7ZOdc8A" deviceset="PMOSFET_SOT23" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.ihbNG9PoRkeNwLXpmaM_Dw?version=1" value="BSS314PEH6327XTSA1"/>
-<part name="Q2" library="MOSFET SOT23" library_urn="urn:adsk.wipprod:fs.file:vf._0DlF-hqRbSXGNB7ZOdc8A" deviceset="PMOSFET_SOT23" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.ihbNG9PoRkeNwLXpmaM_Dw?version=1" value="BSS314PEH6327XTSA1"/>
+<part name="Q1" library="MOSFET SOT23" library_urn="urn:adsk.wipprod:fs.file:vf._0DlF-hqRbSXGNB7ZOdc8A" deviceset="PMOSFET_SOT23" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.ihbNG9PoRkeNwLXpmaM_Dw?version=1" value="SI01P10-TP"/>
+<part name="Q2" library="MOSFET SOT23" library_urn="urn:adsk.wipprod:fs.file:vf._0DlF-hqRbSXGNB7ZOdc8A" deviceset="PMOSFET_SOT23" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.ihbNG9PoRkeNwLXpmaM_Dw?version=1" value="SI01P10-TP"/>
 <part name="R5" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="10k"/>
 <part name="R6" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="10k"/>
-<part name="C2" library="Capacitor" deviceset="C-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/2" technology="_" value="10uF"/>
-<part name="C1" library="Capacitor" deviceset="C-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16290898/2" technology="_" value="10uF"/>
+<part name="C2" library="Capacitor" deviceset="C-US" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="10uF"/>
+<part name="C1" library="Capacitor" deviceset="C-US" device="CHIP-1206(3216-METRIC)" package3d_urn="urn:adsk.eagle:package:16290893/2" technology="_" value="10uF"/>
 <part name="F1" library="Circuit-Protection" deviceset="FUSE" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378156/1" technology="_" value="1A"/>
 <part name="F2" library="Circuit-Protection" deviceset="FUSE" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378156/1" technology="_" value="1A"/>
-<part name="R1" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value=""/>
-<part name="R2" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value=""/>
+<part name="R1" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="150"/>
+<part name="R2" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="150"/>
 <part name="J3" library="Molex Micro-Lock PLUS" library_urn="urn:adsk.wipprod:fs.file:vf.7BFQp9fYT0myC-vL_u_pew" deviceset="MICROLOCK-4PIN" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.TiQLYhTVQlSrNmje41YHlw?version=2" value="RTD"/>
 <part name="J4" library="Molex Micro-Lock PLUS" library_urn="urn:adsk.wipprod:fs.file:vf.7BFQp9fYT0myC-vL_u_pew" deviceset="MICROLOCK-4PIN" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.TiQLYhTVQlSrNmje41YHlw?version=2" value="RTD"/>
-<part name="R3" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value=""/>
-<part name="R4" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value=""/>
+<part name="R3" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="15"/>
+<part name="R4" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="15"/>
 <part name="J5" library="Molex Micro-Lock PLUS" library_urn="urn:adsk.wipprod:fs.file:vf.7BFQp9fYT0myC-vL_u_pew" deviceset="MICROLOCK-4PIN" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.TiQLYhTVQlSrNmje41YHlw?version=2" value="VFS"/>
 <part name="J6" library="Molex Micro-Lock PLUS" library_urn="urn:adsk.wipprod:fs.file:vf.7BFQp9fYT0myC-vL_u_pew" deviceset="MICROLOCK-2PIN" device="CON_5055670271" package3d_urn="urn:adsk.wipprod:fs.file:vf.DbgxurRFTwKL72n502snIg?version=2" value="RELAY"/>
 <part name="J7" library="Molex Micro-Lock PLUS" library_urn="urn:adsk.wipprod:fs.file:vf.7BFQp9fYT0myC-vL_u_pew" deviceset="MICROLOCK-2PIN" device="CON_5055670271" package3d_urn="urn:adsk.wipprod:fs.file:vf.DbgxurRFTwKL72n502snIg?version=2" value="BRAKES"/>
@@ -2984,6 +3086,7 @@ Created by Upverter.com</description>
 <part name="R10" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="10k"/>
 <part name="R8" library="Resistor" deviceset="R-US" device="CHIP-0603(1608-METRIC)" package3d_urn="urn:adsk.eagle:package:16378565/2" technology="_" value="1k"/>
 <part name="D5" library="Diode SOT-123FL" library_urn="urn:adsk.wipprod:fs.file:vf.llv8AfpNRKiFfivkO4zs_w" deviceset="DIODE_SOD-123F" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.JI5AhZdmQIinBigRo0Mzdg?version=2" value="1N4007FLTR"/>
+<part name="J8" library="Molex Micro-Lock PLUS" library_urn="urn:adsk.wipprod:fs.file:vf.aLnYsiJBRyGIcsa2SAseLA" deviceset="MICROLOCK-4PIN" device="" package3d_urn="urn:adsk.wipprod:fs.file:vf.qgFO0TMcQe-EH4rWbP_Pug?version=2" value="CANBUS"/>
 </parts>
 <sheets>
 <sheet>
@@ -3058,7 +3161,7 @@ makes 0.66-3.3V analog</text>
 </instance>
 <instance part="R1" gate="G$1" x="-20.32" y="-86.36" smashed="yes">
 <attribute name="NAME" x="-20.32" y="-83.5914" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="-20.32" y="-89.662" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="-21.844" y="-89.154" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="R2" gate="G$1" x="-17.78" y="-91.44" smashed="yes">
 <attribute name="NAME" x="-17.78" y="-88.6714" size="1.778" layer="95" align="center"/>
@@ -3073,7 +3176,7 @@ makes 0.66-3.3V analog</text>
 </instance>
 <instance part="R3" gate="G$1" x="-30.48" y="-86.36" smashed="yes">
 <attribute name="NAME" x="-30.48" y="-83.5914" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="-30.48" y="-89.662" size="1.778" layer="96" align="center"/>
+<attribute name="VALUE" x="-31.75" y="-89.154" size="1.778" layer="96" align="center"/>
 </instance>
 <instance part="R4" gate="G$1" x="-27.94" y="-91.44" smashed="yes">
 <attribute name="NAME" x="-27.94" y="-88.6714" size="1.778" layer="95" align="center"/>
@@ -3118,6 +3221,10 @@ makes 0.66-3.3V analog</text>
 <attribute name="NAME" x="10.16" y="63.5" size="1.778" layer="95" rot="R180" align="center"/>
 <attribute name="VALUE" x="7.62" y="58.42" size="1.778" layer="96" rot="R180" align="center"/>
 </instance>
+<instance part="J8" gate="G$1" x="-25.4" y="38.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-29.5646" y="43.4086" size="2.083" layer="95" ratio="6" rot="MR0"/>
+<attribute name="VALUE" x="-29.5646" y="40.8686" size="2.083" layer="96" ratio="6" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3146,10 +3253,10 @@ makes 0.66-3.3V analog</text>
 <wire x1="-83.82" y1="2.54" x2="-83.82" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-10.16" x2="-99.06" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="-99.06" y="-10.16"/>
-<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="0" x2="-76.2" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-10.16" x2="-83.82" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-10.16"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -3159,10 +3266,10 @@ makes 0.66-3.3V analog</text>
 <wire x1="-83.82" y1="-35.56" x2="-83.82" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-48.26" x2="-99.06" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-99.06" y="-48.26"/>
-<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="-76.2" y1="-38.1" x2="-76.2" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-48.26" x2="-83.82" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-48.26"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
@@ -3210,6 +3317,11 @@ makes 0.66-3.3V analog</text>
 <pinref part="Q3" gate="G$0" pin="E"/>
 <label x="25.4" y="81.28" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="2"/>
+<wire x1="-25.4" y1="35.56" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
+<label x="-22.86" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="~24V" class="0">
 <segment>
@@ -3236,10 +3348,10 @@ makes 0.66-3.3V analog</text>
 <wire x1="-83.82" y1="10.16" x2="-76.2" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="10.16" x2="-76.2" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-83.82" y="10.16"/>
-<pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="10.16" x2="-71.12" y2="10.16" width="0.1524" layer="91"/>
 <junction x="-76.2" y="10.16"/>
 <label x="-71.12" y="10.16" size="1.778" layer="95" xref="yes"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="-83.82" x2="10.16" y2="-83.82" width="0.1524" layer="91"/>
@@ -3296,10 +3408,10 @@ makes 0.66-3.3V analog</text>
 <wire x1="-76.2" y1="-27.94" x2="-76.2" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="-93.98" y="-27.94"/>
 <junction x="-83.82" y="-27.94"/>
-<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="-76.2" y1="-27.94" x2="-71.12" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="-76.2" y="-27.94"/>
 <label x="-71.12" y="-27.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
@@ -3470,6 +3582,34 @@ makes 0.66-3.3V analog</text>
 <wire x1="27.94" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$0" pin="C"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="38.1" x2="-22.86" y2="38.1" width="0.1524" layer="91"/>
+<label x="-22.86" y="38.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5V"/>
+<wire x1="-25.4" y1="-38.1" x2="-25.4" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-25.4" y="-40.64" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="3"/>
+<wire x1="-25.4" y1="33.02" x2="-7.62" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="33.02" x2="-7.62" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="D1/TX0"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="4"/>
+<wire x1="-25.4" y1="30.48" x2="-5.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="30.48" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="D0/RX0"/>
 </segment>
 </net>
 </nets>

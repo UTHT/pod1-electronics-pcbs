@@ -14,3 +14,4 @@
 
 - Inverter Discharge Relay (J6)
 - Braking Solenoid (J7)
+- Serial-CAN Bus Converter (J8)
