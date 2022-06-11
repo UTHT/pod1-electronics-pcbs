@@ -1,9 +1,14 @@
 # PCB 1
-## Voltage Levels: 5V, 24V
-## Sensor List (Connector Designator):
-  VN200 (P1)  
-  TMP006 (P2)  
-  Prosense RTD #1 (J1)  
-  SPT 200 #1 (J2)  
-  SPT 200 #2 (J5)  
-  SPT 1000 (J6)  
+
+## Inputs
+
+- 12VDC (J1)
+- 24VDC (J2)
+
+## Sensors
+
+- ProSense RTD0100-06-010-H Temperature Probe (J3)
+- 2x ProSense SPT25-20-0200A Pressure Transmitter (J4, J5)
+- ProSense SPTD25-20-1000H Pressure Transmitter (J6)
+- Adafruit TMP006 Infrared Thermopile Breakout Board (J7)
+- VectorNav VN-200 9-Axis GNSS/INS (J8)

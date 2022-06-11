@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-04-01T05:23:38Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "PCB #1 (BRD) v10"
+        },
+        "Owner": "Jayden Lefebvre <jayden.lefebvre@peapodtech.com>",
+        "Size": {
+            "X": 101.6,
+            "Y": 53.34
+        }
+    }
+}
